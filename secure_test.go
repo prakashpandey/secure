@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestSha256Generation(t *testing.T) {
+func TestSha512HashGeneration(t *testing.T) {
 	input := "Beautiful Days"
 	// base64 encoded
 	expectedOutput := "94009566dec17318603ff29cbc359f39856b1d40f6f2ffce0394c56f3dc8530038c0212e631b7f95a5619425213821aff3820365d8826690d0bba92765f4fbdb"
