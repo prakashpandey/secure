@@ -1,4 +1,4 @@
-package main
+package secure
 
 import (
 	"crypto/sha512"
